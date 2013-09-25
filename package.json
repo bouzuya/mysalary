@@ -1,10 +1,10 @@
 {
   "name": "mysalary",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Oh my salary!",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "mocha",
     "start": "node server.js"
   },
   "repository": {
@@ -12,5 +12,12 @@
     "url": "https://github.com/bouzuya/mysalary.git"
   },
   "author": "bouzuya",
-  "license": "BSD"
+  "license": "BSD",
+  "dependencies": {
+    "express": "3.4.0"
+  },
+  "devDependencies": {
+    "mocha": "1.13.0",
+    "supertest": "0.8.0"
+  }
 }
